@@ -1,5 +1,81 @@
 * {
   font-family: "PT Sans", sans-serif;
-  background-color: beige;
+}
+
+.bg-navbar {
+  background-color: #433e37;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid #ffca2d;
+}
+
+.navbar-nav a:hover {
+  border-bottom: 2px solid #ffca2d;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#students-reviews .card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#students-reviews img {
+  height: 280px;
+  object-fit: cover;
+}
+
+.footer-section {
+  background-color: #f2efd8; /* cream color */
+  padding: 40px 0 15px;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-section h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #222;
+}
+
+.footer-links {
+  list-style: none;
   padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #d49c20; /* gold color */
+  font-size: 16px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 5px;
+  /*border-top: 1px solid #ddd;*/
+  padding-top: 5px;
+  font-size: 15px;
+  color: #333;
+}
+
+.footer-icons i {
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #222;
+}
+
+.footer-icons i:hover {
+  opacity: 0.7;
 }

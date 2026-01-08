@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Fav icon-->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+
+    <!--bootstrap cdn css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!--font awsome icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--external stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Creanova Academy</title>
+  </head>
+  <body>
+    <!--navbar section-->
+    <nav class="navbar navbar-expand-lg bg-navbar">
+      <!--inner section-->
+      <div class="container-fluid">
+        <a class="navbar-brand text-warning" href="index.html"
+          >Creanova Academy</a
+        >
+
+        <!--toogle button-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <!--menu-->
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-warning"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="courses.html">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="#">About-us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <!--search form-->
+          <form class="d-flex" role="search">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search Courses"
+              />
+              <button class="btn btn-warning">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Greeting -->
+    <section id="intro" class="container p-4 text-center">
+      <h1 class="mb-4">Greetings from CreaNova Team!</h1>
+      <hr />
+      <p class="mt-4 lh-lg fs-5">
+        CreaNova is dedicated to providing"<br />
+        comprehensive web development courses <br />
+        to individuals who are looking to enhance or<br />
+        switch their careers in web development. <br />
+        We believe in delivering hands-on experience and <br />
+        real-world projects that equip the learners from CreaNova <br />
+        with the necessary skills and knowledge <br />
+        to succeed in the industry.<br />
+      </p>
+    </section>
+
+    <!-- Mission, Vision, and Goals Section -->
+    <section id="mission" class="container p-4">
+      <div class="row d-flex flex-column flex-lg-row">
+        <!-- Mission -->
+        <div class="col mb-3">
+          <h3 class="card-title pb-3 fw-bold">
+            <i class="bi bi-file-earmark-text me-2"></i> Mission
+          </h3>
+          <p class="card-text">
+            Our mission is to deliver hands-on experience and real-world
+            projects that equip our students with the necessary skills and
+            knowledge to succeed in the web development industry.
+          </p>
+        </div>
+
+        <hr class="d-block d-lg-none" />
+
+        <!-- Vision -->
+        <div class="col mb-3">
+          <h3 class="card-title pb-3 fw-bold">
+            <i class="bi bi-lightbulb-fill me-2"></i> Vision
+          </h3>
+          <p class="card-text">
+            To be the leading provider of comprehensive web development
+            education, equipping students with the skills and knowledge
+            necessary to succeed in the industry.
+          </p>
+        </div>
+
+        <hr class="d-block d-lg-none" />
+
+        <!-- Goals -->
+        <div class="col mb-3">
+          <h3 class="card-title pb-3 fw-bold">
+            <i class="bi bi-graph-up-arrow me-2"></i> Goals
+          </h3>
+          <ul class="card-text ps-3">
+            <li>
+              To deliver high-quality education and training to our students.
+            </li>
+            <li>
+              To provide personalized attention and support to our students.
+            </li>
+          </ul>
+        </div>
+
+        <hr class="d-block d-lg-none" />
+      </div>
+    </section>
+
+    <!-- Make sure to include Bootstrap Icons in <head> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <!-- Column 1 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h4>CreaNova Academy</h4>
+            <ul class="footer-links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">What We Offer</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Become a Partner</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h4>Community</h4>
+            <ul class="footer-links">
+              <li><a href="#">Mentees</a></li>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#">Tech Blog</a></li>
+              <li><a href="#">Teaching Centers</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="col-lg-4 col-md-12 mb-4">
+            <h4>More</h4>
+            <ul class="footer-links">
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bottom section -->
+        <div
+          class="footer-bottom d-flex justify-content-between align-items-center"
+        >
+          <p>© 2026 CreaNova.</p>
+
+          <div class="footer-icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-youtube"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-twitter-x"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--bootstrap cdn js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
