@@ -51,7 +51,7 @@
           </h2>
 
           <!--Control List Group-->
-          <div class="list-group">
+          <div class="list-group pe-3">
             <span
               class="list-group-item list-group-item-action disabled d-none d-lg-block text-uppercase"
               aria-current="true"
@@ -90,31 +90,212 @@
         </div>
 
         <!--right content-->
-        <div class="col-10 bg-secondary"></div>
+        <div class="col-10 bg-secondary">
+          <!--nav bar-->
+          <ul class="nav justify-content-end bg-light py-3">
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle nav-link"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="bi bi-person-circle"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">User Profile</a></li>
+                <li><a class="dropdown-item" href="#"> Logout</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="bi bi-gear"></i>
+              </a>
+            </li>
+          </ul>
 
-        <!--nav bar-->
-        <ul class="nav justify-content-end bg-light py-3">
-          <li class="nav-item dropdown">
-            <button
-              class="btn dropdown-toggle nav-link"
-              type="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <i class="bi bi-person-circle"></i>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">User Profile</a></li>
-              <li><a class="dropdown-item" href="#"> Logout</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">
-              <i class="bi bi-gear"></i>
-            </a>
-          </li>
-        </ul>
+          <!--quick status section-->
+          <div class="container py-3">
+            <div class="row">
+              <div class="column">
+                <!-- download alert box-->
+                <div class="alert alert-success" role="alert">
+                  <i class="bi bi-cloud-download"></i>A new version of the admin
+                  dashboard is released.
+                  <a href="#">Download Now!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-2">
+              <h2 class="h5 text-uppercase text-white-50">Quick Stat</h2>
+              <div class="row d-flex flex-column flex-lg-row">
+                <div class="col mt-2">
+                  <div class="card">
+                    <div class="card-body">
+                      This is some text within a card body.
+                    </div>
+                  </div>
+                </div>
+                <div class="col mt-2">
+                  <div class="card">
+                    <div class="card-body">
+                      This is some text within a card body.
+                    </div>
+                  </div>
+                </div>
+                <div class="col mt-2">
+                  <div class="card">
+                    <div class="card-body">
+                      This is some text within a card body.
+                    </div>
+                  </div>
+                </div>
+                <div class="col mt-2">
+                  <div class="card">
+                    <div class="card-body">
+                      This is some text within a card body.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- location and data  -->
+          <div class="row mt-2 d-flex flex-column flex-lg-row">
+            <div class="col mt-2">
+              <h2 class="h5 text-uppercase text-white-50">Location</h2>
+              <div class="card">
+                <div class="card-body">
+                  <div class="mb-3">
+                    <span>Regional</span>
+                    <div
+                      class="progress mt-2"
+                      role="progressbar"
+                      aria-label="Success example"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 5px"
+                    >
+                      <div
+                        class="progress-bar bg-success"
+                        style="width: 25%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <span>Local</span>
+                    <div
+                      class="progress mt-2"
+                      role="progressbar"
+                      aria-label="Success example"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 5px"
+                    >
+                      <div
+                        class="progress-bar bg-primary"
+                        style="width: 75%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <span>Global</span>
+                    <div
+                      class="progress mt-2"
+                      role="progressbar"
+                      aria-label="Success example"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 5px"
+                    >
+                      <div
+                        class="progress-bar bg-warning"
+                        style="width: 50%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <span>Internal</span>
+                    <div
+                      class="progress mt-2"
+                      role="progressbar"
+                      aria-label="Success example"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 5px"
+                    >
+                      <div
+                        class="progress-bar bg-danger"
+                        style="width: 25%"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mt-2">
+              <h2 class="h5 text-uppercase text-white-50">Data</h2>
+              <div class="card">
+                <div class="card-body">
+                  <!-- btn groups  -->
+                  <div class="text-end">
+                    <button class="btn btn-outline-secondary">
+                      <i class="bi bi-search"></i>
+                    </button>
+                    <button class="btn btn-outline-secondary">
+                      <i class="bi bi-search"></i>
+                    </button>
+                    <button class="btn btn-outline-secondary">
+                      <i class="bi bi-search"></i>
+                    </button>
+                  </div>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>@social</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!-- footer  -->
+      <footer class="text-center py-3">
+        <p>Copyright &copy; 2026. Creanova</p>
+      </footer>
     </div>
 
     <!--bootstrap cdn js-->
